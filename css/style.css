@@ -1,0 +1,192 @@
+@font-face {
+    font-family: Norican;
+    src: url(../fonts/Norican-Regular.ttf);
+}
+@font-face {
+    font-family: Lato-Bold;
+    src: url(../fonts/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+.color-white {
+    color: #ffffff !important;
+}
+.color-secondary {
+    color: #ff6d6d !important;
+}
+.h-inherit {
+    height: inherit;
+}
+.h-100 {
+    height: 100%;
+}
+h1 {
+    font-family: Lato-Bold !important;
+}
+html,
+body {
+    height: 100%;
+}
+/*Header section*/
+#header {
+    height: 60%;
+    background-image: url(../images/header.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#header .navbar-brand {
+    font-family: Norican;
+    font-size: 48px;
+}
+
+#header .nav-link {
+    font-family: Lato-Bold;
+    font-size: 16px;
+    opacity: 0.5;
+}
+#header .nav-link:hover {
+    opacity: 1;
+}
+#header .active {
+    opacity: 1;
+}
+#header .nav-scrolled {
+    background-color: white !important;
+}
+#header .nav-scrolled .navbar-brand {
+    color: black !important;
+}
+
+#header .nav-scrolled .nav-link {
+    color: black !important;
+}
+#header .carousel-container {
+    height: 85%;
+}
+#header .carousel-container .title {
+    width: 665px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+#header .carousel-container .sub-title {
+    width: 406px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+}
+#header .carousel-container .read-more {
+    width: 406px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 21px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+/*Description section*/
+#description .title {
+    font-family: Lato-Bold;
+    text-align: center;
+    font-size: 38px;
+}
+#description p {
+    font-family: Lato;
+    text-align: center;
+    font-size: 16px;
+}
+
+.btn {
+    display: inline-block;
+    padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+    font-family: var(--bs-btn-font-family);
+    font-size: var(--bs-btn-font-size);
+    font-weight: var(--bs-btn-font-weight);
+    line-height: var(--bs-btn-line-height);
+    width: 246px;
+    height: 61px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+    border-radius: unset;
+    background-color: var(--bs-btn-bg);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+}
+
+.btn-custom-secondary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #ff6d6d;
+    --bs-btn-border-color: #ff6d6d;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #ff9494;
+    --bs-btn-hover-border-color: #ff9494;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #ff9494;
+    --bs-btn-active-border-color: #ff9494;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #ff6d6d;
+    --bs-btn-disabled-border-color: #ff6d6d;
+}
+
+/*slidesshow section*/
+#slidesshow {
+    background-color: #f6f5f3;
+}
+#slidesshow .title {
+    font-family: Lato-Bold;
+    font-size: 38px;
+}
+#slidesshow p {
+    font-family: Lato;
+    text-align: center;
+    font-size: 16px;
+}
+.card {
+    background-color: transparent;
+    border: none;
+}
+.card .img {
+    width: 53px !important;
+    height: 53px !important;
+}
+.card .card-body .date {
+    font-size: 12px;
+}
+/*Contact section*/
+#contact {
+    background-color: #323969;
+}
+#contact .input-group {
+    width: 400px;
+}
+#contact .form-control {
+    width: 400px;
+    background-color: transparent;
+    border-radius: unset !important;
+    color: #ffffff;
+}
+#contact .form-control::placeholder {
+    color: #ffffff7a;
+}
+#contact .btn {
+    width: 400px;
+    height: 61px;
+}
+
+/*Footer section*/
+#footer .nav-link {
+    font-family: Lato-Bold;
+    color: black;
+}
